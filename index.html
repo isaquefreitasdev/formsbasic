@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h3>Cadastre seu Veículo para vender mais rápido!</h3>
+        </div>
+        <div class="form-container">
+            <div class="form-header">
+                <p>Formulário</p>
+            </div>
+            <div class="form-body">
+                <h1 class="form-title"></h1>
+                <p>Descreva as Caracteristicas e os seus opcionais</p>
+            </div>
+            <form action="">
+                <div class="box-input">
+                    <label for="Title">Preço do anuncio <span class="requiredField">*</span></label>
+                    <input type="text" name="title" id="title" class="block" placeholder="Carro" minlength="1"
+                        maxlength="30" required>
+                </div>
+                <div class="box-input">
+                    <label for="price">Título do anuncio <span class="requiredField">*</span></label>
+                    <input type="text" name="price" id="price" class="block" placeholder="Carro" required>
+                </div>
+                <div class="box-input">
+                    <label for="description">description <span class="requiredField">*</span></label>
+                    <textarea name="description" id="description" class="block"
+                        placeholder="detalhes do veiculo"></textarea>
+                </div>
+                <div class="box-input">
+                    <label for="brand">Marca<span class="requiredField">*</span></label>
+                    <input name="marca" type="text" id="marca" class="block" placeholder="marca" required>
+                </div>
+                <div class="box-input">
+                    <label for="modelo">Modelo<span class="requiredField">*</span></label>
+                    <input name="model" type="text" id="model" class="block" placeholder="modelo" required>
+                </div>
+                <div class="box-input">
+                    <label for="mileage">Kilometragem<span class="requiredField">*</span></label>
+                    <input name="mileage" type="number" id="mileage" class="block" placeholder="Kilometragem" required>
+
+                </div>
+                <div class="box-input">
+                    <label for="purchase-date">Kilometragem<span class="requiredField">*</span></label>
+                    <input name="purchase-date" type="date" id="purchase-date" class="block" placeholder="Kilometragem"
+                        required>
+
+                </div>
+                <div class="box-input">
+                    <p>Tipo de cambio<span class="requiredField">*</span></p>
+                    <input type="radio" name="gear" id="manual">
+                    <label for="manual">Manual</label>
+                    <input type="radio" name="gear" id="auto">
+                    <label for="auto">Automatico</label>
+                    <div class="optional-box">
+                        <p>opcionais</p>
+                        <ul class="optional-list">
+                            <li>
+                                <input type="checkbox" name="optional[]" id="airbag" value="airbag">
+                                <label for="airbag">Airbag</label>
+                                <input type="checkbox" name="som" id="som" value="som">
+                                <label for="som">Som</label>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="box-input">
+                        <p>Tipo de cambio<span class="requiredField">*</span></p>
+                        <input type="file" name="images" id="images" multiple accept="image/png,image/jpg">
+                    </div>
+
+                </div>
+
+
+                <input type="submit" value="Enviar" class="btn-submit">
+            </form>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
