@@ -71,7 +71,7 @@ O principal objetivo deste projeto é praticar a criação e estilização de fo
 
 ## Créditos
 
-Projeto desenvolvido por **Maria**, com o intuito de aprimorar suas habilidades em HTML e CSS.
+Projeto desenvolvido por **isaquefreitasdev**, com o intuito de aprimorar suas habilidades em HTML e CSS.
 
 ## Como Utilizar
 
